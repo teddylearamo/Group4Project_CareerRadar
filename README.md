@@ -1,4 +1,5 @@
 # Group4Project_CareerRadar
+
 CareerRadar
 
 A Personalized Job Discovery and Skill-Gap Platform
@@ -402,7 +403,6 @@ The project runs locally using documented installation steps.
 CareerRadar is a job discovery and career development application that will help users find relevant opportunities and organize their job search. 
 The first phase will deliver a functional React job explorer using an external job listings API. Subsequent phases will expand the application with a Flask backend, 
 PostgreSQL database, user accounts, saved jobs, application tracking, and personalized skill-gap analysis.
-
 
 
 
