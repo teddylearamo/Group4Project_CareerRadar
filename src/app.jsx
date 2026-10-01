@@ -1,8 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Jobs from "./pages/Jobs";
-import JobDetails from "./pages/JobDetails";
-import About from "./pages/About";
+import { useEffect, useState } from 'react';
+import { Link, Routes, Route } from 'react-router-dom';
+import "./styles/global.css";
 
 function App() {
     return (
