@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
-import 'styles/global.css';
+import "./styles/global.css";
 
 function App() {
     return (
