@@ -1,13 +1,19 @@
-import { useEffect, useState } from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
-import 'styles/global.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Jobs from "./pages/Jobs";
+import JobDetails from "./pages/JobDetails";
+import About from "./pages/About";
 
 function App() {
     return (
-        <div>
-            <h1>Career Radar</h1>
-            <p>Welcome to Career Radar!</p>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/jobs" element={<Jobs />} />
+                <Route path="/jobs/:id" element={<JobDetails />} />
+                <Route path="/about" element={<About />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
