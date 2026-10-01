@@ -40,6 +40,8 @@ function Jobs() {
                         </div>
 
                     </section>
+                 {/* EmptyState */}
+                 {/* ErrorMessage */}
                 </section>
             </main>
 
